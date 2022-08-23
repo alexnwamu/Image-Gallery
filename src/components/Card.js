@@ -9,13 +9,13 @@ function Card({ image }) {
         </div>
         <ul>
           <li>
-            <strong>Views:{image.views}</strong>
+            <strong>Views: {image.views}</strong>
           </li>
           <li>
-            <strong>Downloads:{image.downloads}</strong>
+            <strong>Downloads: {image.downloads}</strong>
           </li>
           <li>
-            <strong>Likes:{image.likes}</strong>
+            <strong>Likes: {image.likes}</strong>
           </li>
         </ul>
       </div>

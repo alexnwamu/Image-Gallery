@@ -18,6 +18,8 @@ function App() {
       .catch((err) => console.log(err));
   }, [term]);
   return (
+    <>
+    <div className="text-5xl text-center text-purple-500"> Responsive Image Gallery</div>
     <div className="container mx-auto">
       <ImageSearch searchText={(text) => setTerm(text)} />
       {!isLoading && images.length === 0 && (
@@ -32,7 +34,7 @@ function App() {
           ))}
         </div>
       )}
-    </div>
+    </div></>
   );
 }
 
